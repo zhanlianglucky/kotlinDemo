@@ -7,7 +7,7 @@ fun main() {
     test()
 }
 
-fun test(){
+private fun test(){
     print("Hi kotlin !")
 }
 
