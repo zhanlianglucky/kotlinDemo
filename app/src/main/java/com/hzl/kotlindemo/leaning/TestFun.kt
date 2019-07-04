@@ -1,6 +1,10 @@
 package com.hzl.kotlindemo.leaning
 
-//方法声明 fun
+/**
+ * 方法声明 fun
+ * 运行快捷键 Ctrl + Shift + F10
+ */
+
 fun main() {
     test()
     testString()
