@@ -2,6 +2,8 @@ package com.hzl.kotlindemo.leaning
 
 //方法声明 fun
 fun main() {
+    test()
+    testString()
     testFor()
 }
 
@@ -9,11 +11,11 @@ fun main() {
 private fun testFor() {
     for (i in 0 until 20) print("$i ")
     println("")
-    for(i in 1..5) print("$i ")
+    for (i in 1..5) print("$i ")
     println("")
-    for(i in 1..10 step 2) print("$i ")
+    for (i in 1..10 step 2) print("$i ")
     println("")
-    for(i in 10 downTo 1 step 2) print("$i ")//降序
+    for (i in 10 downTo 1 step 2) print("$i ")//降序
 }
 
 
@@ -22,7 +24,7 @@ private fun testString() {
     var a = 12
     var str = "a = $a"
     println(str)
-    println(str.replace('a','b'))
+    println(str.replace('a', 'b'))
 
     var age = null
 //    var ages = age!!.toInt()//ages为空抛异常
@@ -48,13 +50,13 @@ private fun test() {
     val a = 13 //val 修饰常量
     var b = 14 //var 不限类型的变量，自动识别
 
-    println(a+b)
+    println(a + b)
 
 }
 
 //不限类型参数
-fun getStringLength(obj:Any):String {
-    if (obj is String){
+fun getStringLength(obj: Any): String {
+    if (obj is String) {
         return "str.length = ${obj.length}"
     }
     return "-1"
