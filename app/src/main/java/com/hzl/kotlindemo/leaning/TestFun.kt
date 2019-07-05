@@ -6,7 +6,7 @@ package com.hzl.kotlindemo.leaning
  */
 
 fun main() {
-    test()
+    testDataFormat()
     testString()
     testFor()
 }
@@ -40,7 +40,7 @@ private fun testString() {
 
 }
 
-private fun test() {
+private fun testDataFormat() {
 
     println("1 + 2 = ${add(1, 2)}")
 

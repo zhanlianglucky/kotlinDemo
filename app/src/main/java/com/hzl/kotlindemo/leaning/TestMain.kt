@@ -5,10 +5,10 @@ package com.hzl.kotlindemo.leaning
  *  运行快捷键 Ctrl + Shift + F10
  */
 fun main() {
-    test()
+    testDataFormat()
 }
 
-private fun test(){
+private fun testDataFormat(){
     print("Hi kotlin !")
 }
 
