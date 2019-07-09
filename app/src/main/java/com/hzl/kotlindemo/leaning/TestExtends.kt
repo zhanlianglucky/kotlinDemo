@@ -6,8 +6,8 @@ package com.hzl.kotlindemo.leaning
  * 单继承模式
  */
 
-open class C(var name: String){
-    open fun print(){
+open class C(var name: String) {
+    open fun print() {
         println("class C")
     }
 }
@@ -15,17 +15,19 @@ open class C(var name: String){
 class D(name: String, var age: Int) : C(name)
 
 interface F {
-    fun print(){
+    fun print() {
         println("class F")
     }
+
     fun test()
 }
 
 /**
  * 接口+继承
  */
-class E:C,F {
-    constructor(name:String,age:Int):super(name)
+class E : C, F {
+    constructor(name: String, age: Int) : super(name)
+
     override fun print() {
         super<F>.print()
         super<C>.print()
@@ -51,7 +53,7 @@ fun testExtends() {
     var d = D("zhangsan", 12)
     println("name = ${d.name} age = ${d.age}")
 
-    var e = E("zhangsan",12)
+    var e = E("zhangsan", 12)
     println(e.name)
     e.print()
 }
