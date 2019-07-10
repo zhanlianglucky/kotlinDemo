@@ -9,8 +9,8 @@
         return returnTypeValue;
      }  
 >   > 2.不明确返回类型：  
-    fun sum(a: Int, b: Int) = a + b
->   > 3.可变长参数：  
+    fun sum(a: Int, b: Int) = a + b  
+>   > 3.可变长参数：     
     fun vars(vararg v:Int){
         for(vt in v){
             print(vt)
@@ -19,7 +19,7 @@
     // 测试
     fun main(args: Array<String>) {
         vars(1,2,3,4,5)  // 输出12345
-    }
+    }   
 >   > 4.lambda(匿名函数)： 
    // 测试
    fun main(args: Array<String>) {
