@@ -3,8 +3,8 @@
 > 1.TestFun  
 >   > 一些kotlin的方法定义  
 
-> 2.TestData   
-> > kotlin的常用数据类型和使用  
+> 2.TestData     
+> > kotlin的常用数据类型和使用    
 
 > 3.TestClass  
 > > 类和属性的一些声明规则
