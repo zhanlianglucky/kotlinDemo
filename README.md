@@ -4,7 +4,9 @@
 ## 主要的练习内容
 >  
 > * 方法声明，参考<https://www.runoob.com/kotlin/kotlin-basic-syntax.html>  
->   > 1.声明方式  
+
+
+   > 1.声明方式  
 
     fun name(p1: pType,p2: pType): returnType{
         return returnTypeValue;
