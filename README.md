@@ -34,4 +34,17 @@
        println(sumLambda(1,2))  // 输出 3
     }
     
+   > 5.TestFun  
+   >  一些kotlin的方法定义  
     
+   > 6.TestData        
+   > kotlin的常用数据类型和使用           
+    
+   > 7.TestClass    
+   > 类和属性的一些声明规则  
+    
+   > 8.TestExtends  
+   > 继承和接口的使用  
+    
+   > 9.TestSuperFun.kt  
+   > 方法的扩展  
