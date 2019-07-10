@@ -9,5 +9,8 @@
 > 3.TestClass  
 > > 类和属性的一些声明规则
 
-> 4.TestExtends
-> > 继承和接口的使用
+> 4.TestExtends  
+> > 继承和接口的使用  
+
+> 5.TestSuperFun.kt  
+> > 方法的扩展  
