@@ -12,5 +12,8 @@
 > 4.TestExtends  
 > > 继承和接口的使用  
 
-> 5.TestSuperFun.kt  
+> 5.TestSuperFun    
 > > 方法的扩展  
+
+> 6.TestDataClass  
+> > 数据类和密封类    
