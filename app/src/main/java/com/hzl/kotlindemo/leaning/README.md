@@ -23,3 +23,6 @@
  
 > 8.TestObject  
 >   > 对象表达式    
+
+> 9.TestDelegate  
+>   > 委托（代理）的实现      
